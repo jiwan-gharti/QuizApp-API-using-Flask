@@ -1,0 +1,6 @@
+from app.extensions import SECRET_KEY
+
+DEBUG = True
+SQLALCHEMY_DATABASE_URI = 'sqlite:///../sqlite3.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SECRET_KEY = SECRET_KEY
