@@ -24,7 +24,7 @@ api.add_resource(QuestionDetailController, "/api/question/<question_id>")
 
 
 api.add_resource(QuestionTypeController, '/api/question_type')
-api.add_resource(QuestionTypeDetailController, "/question_type/<question_type_id>")
+api.add_resource(QuestionTypeDetailController, "/api/question_type/<question_type_id>")
 
 api.add_resource(CategoryController, '/api/category')
 api.add_resource(CategoryDetailController,"api//category/<category_id>")
