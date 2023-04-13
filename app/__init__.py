@@ -41,9 +41,7 @@ from .extensions import (
 def create_app():
     # Init
     app = Flask(__name__)
-    # app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///../sqlite3.db"
-    # app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-    # app.config['SECRET_KEY'] = SECRET_KEY
+
     app.config.from_object("config")
 
 
